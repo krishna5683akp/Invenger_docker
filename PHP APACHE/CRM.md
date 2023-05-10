@@ -3,6 +3,7 @@
 * Sign into the Azure Portal and Create one Ubuntu virtual machine.
 * After creation of Virtual machine Install Docker on the virtual machine using below Commands
     ```curl -fsSL https://get.docker.com -o get-docker.sh```
+    
     ```sh get-docker.sh```
 *  After installing Docker add user to the Docker group. using ```sudo usermod -aG docker ubuntu```.  (in my case I am adding ubuntu user to the docker group). After adding user to the docker group exit from the VM and relogin again.
 * Check ```docker info``` then you will able to see the server information.
